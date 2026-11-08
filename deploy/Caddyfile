@@ -1,4 +1,4 @@
-# 把 example.com 换成你自己的域名，并把域名的 A 记录指向 VPS
+# 把 example.com 换成你自己的域名，并确认域名 A 记录已指向 VPS、80/443 已放行
 example.com {
   reverse_proxy moontv:3000
 }
