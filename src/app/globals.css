@@ -11,7 +11,7 @@
   --nav-link-gap: clamp(6px, 0.5vw, 10px); /* 菜单项内间距：6px → 10px  */
   --nav-text: clamp(12px, 0.9vw, 16px); /* ★ 菜单字号带上下限   */
   --nav-icon: clamp(14px, 1vw, 18px); /* ★ 图标带上下限      */
-  --nav-logo: clamp(18px, 1.875vw, 36px); /* ★ Logo 带上下限      */
+  --nav-logo: clamp(16px, 1.25vw, 24px); /* ★ Logo 带上下限      */
   --nav-btn: clamp(30px, 2.5vw, 48px); /* ★ 按钮带上下限      */
 
   /* ★ 搜索栏：与视口等比缩放，clamp 保护下限 */
@@ -37,7 +37,7 @@
     --nav-link-gap: 6px;
     --nav-text: 12px;
     --nav-icon: 14px;
-    --nav-logo: 18px;
+    --nav-logo: 16px;
     --nav-btn: 30px;
     --nav-search-w: 210px;
     --nav-search-h: 36px;
@@ -56,7 +56,7 @@
     --nav-link-gap: 10px;
     --nav-text: 16px;
     --nav-icon: 18px;
-    --nav-logo: 36px;
+    --nav-logo: 24px;
     --nav-btn: 48px;
     --nav-search-w: 420px;
     --nav-search-h: 54px;
