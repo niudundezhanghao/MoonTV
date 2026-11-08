@@ -8,9 +8,9 @@
   --nav-h: 4.375vw; /* 导航栏高度：56px @1280 → 84px @1920   */
   --nav-px: 1.25vw; /* 左右内边距：16px @1280 → 24px @1920   */
   --nav-gap: 1.25vw; /* 区块间距：16px @1280 → 24px @1920     */
-  --nav-link-gap: 0.78125vw; /* 菜单项内间距：10px @1280 → 15px @1920  */
-  --nav-text: clamp(13px, 1.171875vw, 22.5px); /* ★ 菜单字号带上下限   */
-  --nav-icon: clamp(15px, 1.40625vw, 27px); /* ★ 图标带上下限      */
+  --nav-link-gap: clamp(6px, 0.5vw, 10px); /* 菜单项内间距：6px → 10px  */
+  --nav-text: clamp(12px, 0.9vw, 16px); /* ★ 菜单字号带上下限   */
+  --nav-icon: clamp(14px, 1vw, 18px); /* ★ 图标带上下限      */
   --nav-logo: clamp(18px, 1.875vw, 36px); /* ★ Logo 带上下限      */
   --nav-btn: clamp(30px, 2.5vw, 48px); /* ★ 按钮带上下限      */
 
@@ -22,7 +22,7 @@
   --nav-source-w: clamp(60px, calc(var(--nav-search-w) * 0.26), 104px);
 
   /* ★ 左侧菜单横向滚动容器的最大宽度：超出部分隐藏并可滚动查看 */
-  --nav-menu-max-w: clamp(280px, 38vw, 700px);
+  --nav-menu-max-w: clamp(320px, 62vw, 900px);
 
   /* ★ 字号 = 宽度的 5%，两者同边界 clamp，字宽比恒定 */
   --nav-search-text: calc(var(--nav-search-w) * 0.05);
@@ -35,15 +35,15 @@
     --nav-px: 12px;
     --nav-gap: 8px;
     --nav-link-gap: 6px;
-    --nav-text: 13px;
-    --nav-icon: 15px;
+    --nav-text: 12px;
+    --nav-icon: 14px;
     --nav-logo: 18px;
     --nav-btn: 30px;
     --nav-search-w: 210px;
     --nav-search-h: 36px;
     --nav-source-w: 60px;
     --nav-search-text: 11px;
-    --nav-menu-max-w: 280px;
+    --nav-menu-max-w: 320px;
   }
 }
 
@@ -53,16 +53,16 @@
     --nav-h: 84px;
     --nav-px: 24px;
     --nav-gap: 24px;
-    --nav-link-gap: 15px;
-    --nav-text: 22.5px;
-    --nav-icon: 27px;
+    --nav-link-gap: 10px;
+    --nav-text: 16px;
+    --nav-icon: 18px;
     --nav-logo: 36px;
     --nav-btn: 48px;
     --nav-search-w: 420px;
     --nav-search-h: 54px;
     --nav-source-w: 104px;
     --nav-search-text: 20px;
-    --nav-menu-max-w: 700px;
+    --nav-menu-max-w: 900px;
   }
 }
 
