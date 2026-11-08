@@ -1,0 +1,4 @@
+# 把 example.com 换成你自己的域名，并把域名的 A 记录指向 VPS
+example.com {
+  reverse_proxy moontv:3000
+}
