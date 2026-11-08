@@ -1339,7 +1339,7 @@ export function usePlayEngine() {
       const enablePreferBestSourceFromStorage = (() => {
         if (typeof window === 'undefined') return false;
         const saved = localStorage.getItem('enablePreferBestSource');
-        if (saved === null) return false;
+        if (saved === null) return true;
         try {
           return JSON.parse(saved);
         } catch {

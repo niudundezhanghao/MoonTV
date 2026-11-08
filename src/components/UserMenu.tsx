@@ -68,7 +68,7 @@ export const UserMenu: React.FC = () => {
     }
     return 3; // 默认重试3次
   });
-  const [enablePreferBestSource, setEnablePreferBestSource] = useState(false);
+  const [enablePreferBestSource, setEnablePreferBestSource] = useState(true);
   const [preferredDanmakuPlatform, setPreferredDanmakuPlatform] =
     useState('bilibili1');
   const [isDanmakuPlatformDropdownOpen, setIsDanmakuPlatformDropdownOpen] =
@@ -551,7 +551,7 @@ export const UserMenu: React.FC = () => {
       localStorage.setItem('doubanImageProxyType', defaultDoubanImageProxyType);
       localStorage.setItem('doubanImageProxyUrl', defaultDoubanImageProxyUrl);
 
-      localStorage.setItem('enablePreferBestSource', JSON.stringify(false));
+      localStorage.setItem('enablePreferBestSource', JSON.stringify(true));
       localStorage.setItem('autoDanmakuEnabled', JSON.stringify(false));
       localStorage.setItem('preferredDanmakuPlatform', 'bilibili1');
       localStorage.setItem('danmakuRetryCount', '3'); // 新增：重置本地弹幕自动尝试次数为3
